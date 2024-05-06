@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    font-family: Helvetica;
+    background-color: rgb(192, 192, 192);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    align-items: center;
+    gap: 1rem;
+}
+
+.field{
+    width: 500px;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    transition: .5s;
+}
+
+label{
+    font-size: 0.9rem;
+}
+
+textarea{
+    width: 100%;
+    font-size: 1rem;
+    padding: .5rem;
+    border-radius: 5px;
+    border: 1px solid #9092f1;
+    background-color: #ffffffda;
+}
+
+.counter{
+    font-size: .8rem;
+    color: #9092f1;
+}
+
+#btnFalar{
+    background-color: #9092f1;
+    color: #ffffff;
+    font-size: 1.1rem;
+    padding: 0.4rem 1rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+#btnFalar:hover{
+    background-color: #6d6eb8;
+}
+
+@media (max-width: 570px){
+    .field{
+        width: 380px;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        transition: .5s;
+    }
+}
+@media (max-width: 420px){
+    .field{
+        width: 330px;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        transition: .5s;
+    }
+}
+@media (max-width: 330px){
+    .field{
+        width: 285px;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        transition: .5s;
+    }
+}
